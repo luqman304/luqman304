@@ -15,22 +15,11 @@ Open to **AI / ML engineering internships**.
 | project | what it is | stack |
 |---|---|---|
 | [**eu-ai-act-rag**](https://github.com/luqman304/eu-ai-act-rag) | Cited Q&A over the EU AI Act with an evaluation harness. Structure-aware chunking and hybrid search raised recall@5 from 69.6 to 89.9 and answer correctness from 0.68 to 0.85, with bootstrap confidence intervals. | FastAPI · Qdrant · Claude API · Docker · CI |
-| [**gnn-fraud-detection**](https://github.com/luqman304/gnn-fraud-detection) | Fraud detection on a user–merchant transaction graph, from a logistic-regression baseline to GraphSAGE / GCN. | PyTorch Geometric · scikit-learn |
-| [**mini-transformer**](https://github.com/luqman304/mini-transformer) | GPT-style decoder-only transformer written from scratch: multi-head attention, causal masking, perplexity evaluation. | PyTorch |
-| [**lora-finetuning**](https://github.com/luqman304/lora-finetuning) | LoRA / QLoRA fine-tuning pipeline for instruction-tuning LLMs, with adapter saving and loading. | Hugging Face Transformers · PEFT |
-| [**predictive-maintenance-iot**](https://github.com/luqman304/predictive-maintenance-iot) | Equipment-failure prediction from IoT sensor data to cut unplanned downtime. | scikit-learn · pandas |
-| [**workflow_automation_bot**](https://github.com/luqman304/workflow_automation_bot) | Microservice that turns unstructured meeting notes into structured actions. | FastAPI · LLM API |
-
-<details>
-<summary>More projects</summary>
-
-- [customer-segmentation-engine](https://github.com/luqman304/customer-segmentation-engine): KMeans + PCA customer segmentation (loyal, churn-risk, price-sensitive)
-- [hybrid-rag-chatbot](https://github.com/luqman304/hybrid-rag-chatbot): RAG chatbot over a custom knowledge base
-- [consulting_ai_assistant_repo](https://github.com/luqman304/consulting_ai_assistant_repo): document Q&A for consultants with ChromaDB
-- [ad-creative-optimizer](https://github.com/luqman304/ad-creative-optimizer): NLP scoring of ad copy for engagement
-- [business_case_simulator](https://github.com/luqman304/business_case_simulator): KPI analysis and strategy recommendations
-
-</details>
+| [**mini-transformer**](https://github.com/luqman304/mini-transformer) | GPT-style decoder-only transformer written from scratch: byte-level tokenizer, multi-head self-attention, causal masking, perplexity tracking. | PyTorch |
+| [**workflow_automation_bot**](https://github.com/luqman304/workflow_automation_bot) | REST service that turns meeting notes into an executive summary and dated action items, with an LLM path and a rule-based fallback. Tested and containerised. | FastAPI · pytest · Docker |
+| [**ai-salt-production-optimizer**](https://github.com/luqman304/ai-salt-production-optimizer) | Industrial AI demo covering predictive maintenance, energy use, image-based quality control and logistics, with an ROI calculator and PDF report export. | Streamlit · scikit-learn |
+| [**predictive-maintenance-iot**](https://github.com/luqman304/predictive-maintenance-iot) | Predicts equipment failure in the next 7 days from temperature, vibration and cycle data, with tunable model and ROC AUC reporting. | scikit-learn · Streamlit |
+| [**ml-diabetes-predictor**](https://github.com/luqman304/ml-diabetes-predictor) | Diabetes-risk classifier trained on the Pima Indians dataset, served through an interactive form. | scikit-learn · Streamlit |
 
 ---
 
