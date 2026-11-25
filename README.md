@@ -31,12 +31,12 @@ with code-enforced guardrails: 98 % on a 50-question eval and 49/49 red-team att
 
 ### Tech
 
-**Languages:** Python, SQL, TypeScript
-**ML / LLM:** PyTorch, Hugging Face Transformers, scikit-learn, LightGBM, PyTorch Geometric, YOLO, LoRA / PEFT, RAG, LLM-as-judge evaluation
-**Retrieval:** Qdrant, ChromaDB, hybrid dense + BM25 search, cross-encoder reranking
-**Data:** dbt, DuckDB, pandas, data-quality testing and lineage
-**Back end:** FastAPI, Django, Streamlit
-**Ops:** Docker, Docker Compose, GitHub Actions, pytest
+**Languages:** Python, SQL, TypeScript  
+**ML / LLM:** PyTorch, Hugging Face Transformers, scikit-learn, LightGBM, PyTorch Geometric, YOLO, LoRA / PEFT, RAG, LLM-as-judge evaluation  
+**Retrieval:** Qdrant, ChromaDB, hybrid dense + BM25 search, cross-encoder reranking  
+**Data:** dbt, DuckDB, pandas, data-quality testing and lineage  
+**Back end:** FastAPI, Django, Streamlit  
+**Ops:** Docker, Docker Compose, GitHub Actions, pytest  
 
 **Evaluation first:** every project above is scored against a baseline with confidence intervals, and the
 result is reported even when the simpler method wins.
